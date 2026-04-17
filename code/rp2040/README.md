@@ -4,6 +4,4 @@
 2. Select XIAO RP2040
 ![Select other board and port](../../assets/select_board.png)
 ![Select RP2040](../../assets/select_rp2040.png)
-
-
-## Code Overview
+3. Now you can plug in your rp2040 and upload code!

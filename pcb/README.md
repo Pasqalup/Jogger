@@ -19,4 +19,3 @@ You may also need **JST PH** cables to connect the PCB to the encoder. If you do
 2. Solder Key switches
 3. Solder XIAO RP2040 with pin headers
 4. Solder JST-PH 4P connector (If you're using it)
-5. 
