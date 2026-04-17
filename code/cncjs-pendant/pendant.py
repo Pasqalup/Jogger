@@ -2,6 +2,7 @@
 import socketio
 import sys
 import time
+import os
 
 try:
     import keyboard
@@ -9,9 +10,33 @@ except ImportError:
     print('Missing dependency: keyboard')
     print('Install with: pip install keyboard')
     sys.exit(1)
+try:
+    import jwt
+except ImportError:
+    print('Missing dependency: pyjwt')
+    print('Install with: pip install pyjwt')
+    sys.exit(1)
+
+
+
+#find .cncrcjs in home directory and read token from it
+home = os.path.expanduser('~')
+cncrcjs_path = os.path.join(home, '.cncrc')
+if os.path.exists(cncrcjs_path):
+    #read SECRET from .cncrc file. json secret: "secret"
+    import json
+    with open(cncrcjs_path, 'r') as f:
+        config = json.load(f)
+        if 'secret' in config:
+            CNCJS_SECRET = config['secret']
+            print('Loaded CNCJS token from .cncrc file.')
+        else:
+            print('No "secret" key found in .cncrc file')
+CNCJS_TOKEN = jwt.encode({'id': 'pendant', 'name': 'pendant'}, CNCJS_SECRET, algorithm='HS256')
+
 
 CNCJS_URL   = 'http://localhost:8000'
-CNCJS_TOKEN = 'YOUR_CNCJS_API_TOKEN_HERE'  # Replace with your actual token from cncjs settings
+#CNCJS_TOKEN = 'YOUR_CNCJS_API_TOKEN_HERE'  # automatic token generation from .cncrc file or hardcoded value
 SERIAL_PORT = '/dev/ttyACM0'
 
 CURRENT_AXIS = 'X'  # Default axis for movement commands
