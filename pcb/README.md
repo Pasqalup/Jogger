@@ -10,6 +10,7 @@
 | XIAO RP2040                 | 1   | https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html |                                                      |
 | CHERRY MX Keyboard Switches | 5   | https://www.lcsc.com/product-detail/CPG151101D01.html    | https://www.aliexpress.us/item/3256806811817309.html |
 | SK6812-mini LEDs            | 4   | https://www.lcsc.com/product-detail/C2886570.html        |                                                      |
+| Cherry MX Key Caps          | 5   | Your Choice!                                             | https://www.aliexpress.us/item/3256802719703092.html |
 
 
 

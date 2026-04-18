@@ -1,20 +1,28 @@
 #!/usr/bin/env python3
-import socketio
 import sys
 import time
 import os
-
+try:
+    import socketio 
+except ImportError as e:
+    print("Error importing 'socketio' module:")
+    print(e)
+    ## TODO: find socketio version
+    print("Hint: run 'pip install python-socketio' to install it.")
+    sys.exit(1)
 try:
     import keyboard
-except ImportError:
-    print('Missing dependency: keyboard')
-    print('Install with: pip install keyboard')
+except ImportError as e:
+    print("Error importing 'keyboard' module:")
+    print(e)
+    print("Hint: run 'pip install keyboard' to install it.")
     sys.exit(1)
 try:
     import jwt
-except ImportError:
-    print('Missing dependency: pyjwt')
-    print('Install with: pip install pyjwt')
+except ImportError as e:
+    print("Error importing 'jwt' module:")
+    print(e)
+    print("Hint: run 'pip install pyjwt' to install it.")
     sys.exit(1)
 
 
