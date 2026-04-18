@@ -1,5 +1,9 @@
 # CNCjs Pendant
 ## Finding your key
+
+The program now **automatically finds and creates your key**. The following is only necessary when automatic key generation isn't working
+<br/>
+-
 ### Find your CNCjs secret
 1. Find your .cncrc file (usually at ~/.cncrc or %USERPROFILE%\\.cncrc)
 2. Find the line that says `"secret": "YOUR_SECRET_HERE"`
