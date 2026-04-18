@@ -1,0 +1,7 @@
+No.,Quantity,Comment,Designator,Footprint,Value,Manufacturer Part,Manufacturer,Supplier Part,Supplier,Product Link,Notes,Secondary Lihnk
+1,1,S4B-PH-K-S(LF)(SN),ENC,CONN-TH_4P-P2.00_S4B-PH-K-S-LF-SN,,S4B-PH-K-S(LF)(SN),JST,C157926,LCSC,https://www.lcsc.com/product-detail/C157926.html,,
+2,1,HANDWHEEL ENCODER,ENC,,,,,,AliExpress,https://www.aliexpress.us/item/3256804251537752.html,,
+3,1,EC11E15244B2,SW1,SW-TH_EC11XXXXXXXX,,EC11E15244B2,ALPSALPINE(???????),C470754,LCSC,https://www.lcsc.com/product-detail/C470754.html,NOT REQUIRED,
+4,1,XIAO-RP2040-DIP,U1,XIAO-RP2040-DIP,,,,,Seeed Studio,https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html,,
+5,5,CHERRY-MX,"U2,U3,U4,U5,U6",CHERRY-MX,,,,CPG151101D01,LCSC,https://www.lcsc.com/product-detail/CPG151101D01.html,,https://www.aliexpress.us/item/3256806811817309.html
+6,4,SK6812mini-012,"U8,U9,U10,U11",LED-SMD_4P-L3.7-W3.5-P1.75-BR-SK6812MINI,,SK6812mini-012,?????,C2886570,LCSC,https://www.lcsc.com/product-detail/C2886570.html,,
