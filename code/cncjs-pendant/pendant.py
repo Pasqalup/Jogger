@@ -8,7 +8,7 @@ except ImportError as e:
     print("Error importing 'socketio' module:")
     print(e)
     ## TODO: find socketio version
-    print("Hint: run 'pip install python-socketio' to install it.")
+    print("Hint: run 'pip install python-socketio==4.6.1' to install it.")
     sys.exit(1)
 try:
     import keyboard

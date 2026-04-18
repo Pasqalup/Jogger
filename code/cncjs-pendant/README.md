@@ -1,9 +1,8 @@
 # CNCjs Pendant
 ## Install Dependencies
 ```bash
-pip install keyboard pyjwt socketio
+pip install keyboard pyjwt python-socketio==4.6.1
 ```
-[//]: # (TODO: find correct socketio version)
 ## Finding your key
 
 The program now **automatically finds and creates your key**. The following is only necessary when automatic key generation isn't working
