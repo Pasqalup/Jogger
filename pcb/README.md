@@ -3,14 +3,14 @@
 
 
 ## BOM
-| Part Name                   | Qty | Primary Link                                             | Secondary Link                                       |
-|-----------------------------|-----|---------------------------|---------------------------------|
-| JST connector               | 1   | https://www.lcsc.com/product-detail/C157926.html         |                                                      |
-| 100PPR Rotary Encoder       | 1   | https://www.aliexpress.us/item/3256804251537752.html     |                                                      |
-| XIAO RP2040                 | 1   | https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html |                                                      |
-| CHERRY MX Keyboard Switches | 5   | https://www.lcsc.com/product-detail/CPG151101D01.html    | https://www.aliexpress.us/item/3256806811817309.html |
-| SK6812-mini LEDs            | 4   | https://www.lcsc.com/product-detail/C2886570.html        |                                                      |
-| Cherry MX Key Caps          | 5   | Your Choice!                                             | https://www.aliexpress.us/item/3256802719703092.html |
+| Part Name                   | Qty | Primary Link                                             | Secondary Link                                       | Unit Price |
+|-----------------------------|-----|---------------------------|---------------------------------|---|
+| JST connector               | 1   | https://www.lcsc.com/product-detail/C157926.html         |                                                      | $0.0556 |
+| 100PPR Rotary Encoder       | 1   | https://www.aliexpress.us/item/3256804251537752.html     |                                                      | $10-15 |
+| XIAO RP2040                 | 1   | https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html |                                                      | $3.99 |
+| CHERRY MX Keyboard Switches | 5   | [https://www.lcsc.com/product-detail/CPG151101D01.html](https://www.lcsc.com/product-detail/C49234238.html)    | https://www.aliexpress.us/item/3256806811817309.html | $0.1016 |
+| SK6812-mini LEDs            | 4   | https://www.lcsc.com/product-detail/C2886570.html        |                                                      | $0.0953 |
+| Cherry MX Key Caps          | 5   | Your Choice!                                             | https://www.aliexpress.us/item/3256802719703092.html | |
 
 
 
